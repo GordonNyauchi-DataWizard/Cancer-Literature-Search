@@ -1,0 +1,37 @@
+# Core Dependencies
+# ============================================================================
+
+# PDF Processing
+PyPDF2>=3.0.0
+
+# Embeddings and NLP
+sentence-transformers>=2.2.0
+transformers>=4.30.0
+torch>=2.0.0
+
+# Numerical Computing
+numpy>=1.24.0
+
+# LLM Integration
+anthropic>=0.18.0
+
+# Progress Bars
+tqdm>=4.65.0
+
+# Web Interface (Optional - for Streamlit deployment)
+streamlit>=1.31.0
+
+# Additional Dependencies (installed automatically with above packages)
+# - scipy (for similarity computations)
+# - scikit-learn (for additional ML utilities)
+# - pillow (for image handling in PDFs)
+# - regex (for text processing)
+# - tokenizers (for transformer models)
+# - huggingface-hub (for model downloads)
+
+# Development Dependencies (Optional)
+# ============================================================================
+# pytest>=7.4.0
+# black>=23.7.0
+# flake8>=6.1.0
+# mypy>=1.5.0
