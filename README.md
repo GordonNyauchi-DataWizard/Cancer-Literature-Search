@@ -19,7 +19,7 @@ A production-ready semantic search application for exploring cancer research pap
 - [API Reference](#api-reference)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
-- [Demo Video](#demo video)
+- [Demo Video]
 - [License](#license)
 
 ## 🎯 Overview
