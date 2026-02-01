@@ -19,6 +19,7 @@ A production-ready semantic search application for exploring cancer research pap
 - [API Reference](#api-reference)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
+- [Demo Video](#demo video)
 - [License](#license)
 
 ## 🎯 Overview
@@ -533,7 +534,7 @@ Contributions welcome! Areas for improvement:
 - [ ] Multi-language support
 - [ ] Fine-tuned models for medical text
 
-## Demo Video
+## 📹 Demo Video
    https://vimeo.com/manage/videos/1160874062
 
 ## 📄 License
