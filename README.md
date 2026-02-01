@@ -1,4 +1,4 @@
-# 🔬 Cancer Medical Literature Semantic Search System
+# 🔬 Cancer Medical Literature Semantic Search 
 
 A production-ready semantic search application for exploring cancer research papers using AI-powered embeddings and large language models.
 
