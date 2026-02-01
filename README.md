@@ -533,6 +533,9 @@ Contributions welcome! Areas for improvement:
 - [ ] Multi-language support
 - [ ] Fine-tuned models for medical text
 
+## Demo Video
+   https://vimeo.com/manage/videos/1160874062
+
 ## 📄 License
 
 MIT License - see LICENSE file for details
