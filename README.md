@@ -551,7 +551,7 @@ MIT License - see LICENSE file for details
 
 For questions or issues:
 - Open an issue on GitHub
-- Email: [gnyauchi@uci.edu]
+- Email: [nyashanyauchi14@gmail.com]
 - Twitter: [@nnyauchi]
 
 
