@@ -1,6 +1,6 @@
 """
 Streamlit Web Interface for Cancer Medical Literature Search
-WITH RATE LIMITING - 1 Question Per User Per Day
+WITH RATE LIMITING - 10 Questions Per User Per Day
 
 Run with:
     streamlit run app_with_limits.py
@@ -262,12 +262,12 @@ def main():
         display_usage_stats()
         
         # Admin reset button (for testing)
-        st.markdown("---")
-        if st.button("🔄 Reset Usage (Testing)", help="Reset your daily usage counter"):
-            st.session_state.questions_asked_today = []
-            st.session_state.question_count = 0
-            st.success("✅ Usage reset! Refresh the page.")
-            st.rerun()
+        #st.markdown("---")
+        #if st.button("🔄 Reset Usage (Testing)", help="Reset your daily usage counter"):
+            #st.session_state.questions_asked_today = []
+            #st.session_state.question_count = 0
+            #st.success("✅ Usage reset! Refresh the page.")
+            #st.rerun()
         
         st.markdown("---")
         
@@ -336,7 +336,7 @@ def main():
         elif search_mode == "💬 Question Answering":
             st.header("💬 Question Answering")
             st.markdown(
-                "Ask questions and get AI-generated answers based on the research papers. **Limited to 10 question per day.**"
+                "Ask questions and get AI-generated answers based on the research papers. **Limited to 10 questions per day.**"
             )
             
             # Check rate limit
