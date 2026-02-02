@@ -12,6 +12,12 @@ import os
 from datetime import datetime, timedelta
 import hashlib
 
+# Get API key from Streamlit secrets
+api_key = st.secrets.get("ANTHROPIC_API_KEY") or os.getenv("ANTHROPIC_API_KEY")
+
+if not api_key:
+    st.error("Please set ANTHROPIC_API_KEY in Streamlit secrets")
+
 
 # ============================================================================
 # PAGE CONFIGURATION
