@@ -84,7 +84,7 @@ def can_ask_question():
         hours = int(time_until_reset.total_seconds() // 3600)
         minutes = int((time_until_reset.total_seconds() % 3600) // 60)
         
-        return False, f"⏰ Daily limit reached ({DAILY_LIMIT} question/day). Try again in {hours}h {minutes}m."
+        return False, f"⏰ Daily limit reached ({DAILY_LIMIT} questions/day). Try again in {hours}h {minutes}m."
     
     return True, ""
 
@@ -282,7 +282,7 @@ def main():
             
             **Usage Limits:**
             - 🔍 Semantic Search: **Unlimited**
-            - 💬 Q&A: **10 question/day**
+            - 💬 Q&A: **10 questions/day**
             - 📊 Comparison: **10 analysis/day**
             
             **Tips:**
