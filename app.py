@@ -388,7 +388,7 @@ def main():
         elif search_mode == "📊 Comparative Analysis":
             st.header("📊 Comparative Analysis")
             st.markdown(
-                "Compare findings across multiple papers on a topic. **Limited to 10 analysis per day.**"
+                "Compare findings across multiple papers on a topic. **Limited to 10 analyses per day.**"
             )
             
             # Check rate limit
