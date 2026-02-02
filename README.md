@@ -535,7 +535,7 @@ Contributions welcome! Areas for improvement:
 - [ ] Fine-tuned models for medical text
 
 ## 📹 Demo Video
-   https://vimeo.com/manage/videos/1160874062
+  
 
 ## 📄 License
 
