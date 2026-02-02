@@ -293,13 +293,13 @@ def main():
         )
         
         # Stats
-        if app.is_indexed:
-            st.markdown("---")
-            st.subheader("📈 Index Stats")
-            st.metric("Total Chunks", len(app.index.chunks))
+        #if app.is_indexed:
+            #st.markdown("---")
+            #st.subheader("📈 Index Stats")
+            #st.metric("Total Chunks", len(app.index.chunks))
             
-            unique_pdfs = len(set(c['pdf_file'] for c in app.index.chunks))
-            st.metric("PDF Files", unique_pdfs)
+            #unique_pdfs = len(set(c['pdf_file'] for c in app.index.chunks))
+            #st.metric("PDF Files", unique_pdfs)
     
     # Main content area
     col1, col2 = st.columns([3, 1])
