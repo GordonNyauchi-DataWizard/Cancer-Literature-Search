@@ -283,7 +283,7 @@ def main():
             **Usage Limits:**
             - 🔍 Semantic Search: **Unlimited**
             - 💬 Q&A: **10 questions/day**
-            - 📊 Comparison: **10 analysis/day**
+            - 📊 Comparison: **10 analyses/day**
             
             **Tips:**
             - Be specific in queries
